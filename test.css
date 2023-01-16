@@ -1,0 +1,938 @@
+*
+{
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 20px auto;
+	max-width: 1400px;
+}
+
+h1
+{
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+h2
+{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+h3
+{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+h4
+{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+
+.fa-star
+{
+	font-size: 12px;
+}
+
+.fa-money-bill-wave, .fa-person, .fa-heart, .fa-dog
+{
+	font-size: 21px;
+}
+
+header
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.header_logo
+{
+	height: 70px;
+	height: 25px;
+}
+
+.bloc_header_liens
+{
+	display: flex;
+	flex-wrap: wrap;
+	columns: 2;
+	column-gap: 20px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.lienheader
+{
+	padding-top: 30px;
+	
+	color: black;
+	text-decoration: none;
+}
+
+.lienhebergement
+{
+	margin-right: 40px;
+}
+
+a.lienheader:hover
+{
+	border-top: 2px solid #0065fc;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: black;
+}
+
+a.lienheader:hover
+{
+	color: #0065fc;
+}
+
+
+
+/* fin nav */
+
+
+
+#section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	gap: 20px;
+
+}
+
+.bloc_titre_hebergement {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.texte_hebergement {
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+
+}
+
+#formulaire {
+	display: flex;
+	align-content: stretch;
+	width: 400px;
+	height: 49px;
+	border: 1px #F2F2F2 solid;
+	border-radius: 15px;
+}
+
+#formulaire_bouton_1 {
+	width: 120px;
+	height: 49px;
+	top: 200px;
+	left: 341px;
+	padding: 15px 16px 15px 16px;
+	border: 1px solid #0065fc;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #0065fc;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#formulaire_bouton_2 {
+	display: none;
+	padding: 15px 16px 15px 16px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #0065fc;
+	text-align: center;
+	color: white;
+}
+
+#formulaire_champs {
+	width: 260px;
+	padding: 0px 0px 0px 10px;
+	border: 1px #F2F2F2;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+#bloc_filtre {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 75%;
+}
+
+.filtre_titre {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	font-size: 18px;
+}
+
+.bloc_filtre_element {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.familial,
+.animaux {
+	margin-left: 27px;
+}
+
+.filtre_elements {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+	gap: 10px;
+	height: 50px;
+	border-radius: 25px;
+	padding: 1rem 2.5rem;
+	border: 2px #D9D9D9 solid;
+}
+
+.filtre_elements:hover {
+	background-color: #DEEBFF;
+}
+
+.fa-solid {
+	color: #0065FC;
+}
+
+.fa-location-dot {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	padding: 15px;
+	border: 1px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background-color: #F2F2F2;
+}
+
+#bloc_information {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.information_icone {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 22px;
+	border-radius: 100%;
+	margin-right: 5px;
+	padding: 0.4rem;
+
+	border: 2px #D9D9D9 solid;
+}
+
+/*Fin de la 1ère section*/
+
+
+
+
+
+/*Début de la 2eme section*/
+/*Début de bloc-herbergement Hébergement*/
+
+#section2 {
+	display: flex;
+	flex-wrap: nowrap;
+	column-gap: 30px;
+	margin-bottom: 20px;
+}
+
+#bloc-herbergement {
+	display: flex;
+	width: 75%;
+	flex-direction: column;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+}
+
+.hebergement_titre {
+	padding: 20px 0px 0px 30px;
+}
+
+.comportementcartes {
+	text-decoration: none;
+}
+
+#conteneur-hebergement_cartes {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	gap: 20px;
+}
+
+.rang_hebergement_cartes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.hebergement_carte {
+	width: 28%;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px grey;
+	border: 4px solid #FFFFFF;
+	background: #FFFFFF;
+}
+
+.hebergement_carte_image {
+	width: 100%;
+	height: 130px;
+	object-fit: cover;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.hebergement_carte_titre_texte {
+	flex-direction: column;
+	padding: 5px 0px 5px 5px;
+
+}
+
+.hebergement_carte_titre {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.hebergement_carte_texte {
+	padding: 5px 0px 5px 0px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.hebergement_carte_etoiles {
+	display: flex;
+	height: 18px;
+}
+
+.fa-star {
+	color: #0065FC;
+	width: 14px;
+}
+
+.last-star {
+	color: #D9D9D9;
+	width: 14px;
+}
+
+.bloc_afficherplus {
+	padding: 15px 0px 20px 30px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.afficherplus_lien {
+	text-decoration: none;
+	color: black;
+}
+
+.bloc_afficherplus:hover {
+	text-decoration: none;
+}
+
+/*Fin de section Hébergements*/
+
+/*Début de Aside Les plus populaires*/
+
+#aside {
+	display: flex;
+	width: 25%;
+	flex-direction: column;
+	border-radius: 20px;
+	background: #F2F2F2;
+}
+
+#bloc_titre_lespluspopulaires {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+.titre_lespluspopulaires {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+#colonne_lespluspopulaires_cartes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.lespluspopulaires_carte {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	border-radius: 20px;
+	border: 4px solid #FFFFFF;
+	box-shadow: 2px 2px 2px grey;
+}
+
+.lespluspopulaires_carte_image {
+	object-fit: cover;
+	object-position: bottom;
+	width: 137px;
+	height: 144px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.bloc_carte_titretexteicone {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 190px;
+	padding: 10px 0px 0px 10px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: #FFFFFF;
+}
+
+.lespluspopulaires_carte_titre {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.lespluspopulaires_carte_texte {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	padding-top: 5px;
+}
+
+.etoile2 {
+	display: flex;
+	width: 12px;
+	height: 12px;
+}
+
+/* Fin de Aside Les Plus Populaires*/
+/*Fin de la section 2*/
+
+
+
+
+/*Début de la section activités*/
+
+#section3 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+
+
+.bloc_activites_titre {
+	display: flex;
+	margin: 0px 0px 10px 0px;
+}
+
+#bloc_activites {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.bloc_activite_carte {
+	width: 21%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	box-shadow: 2px 0px 10px grey;
+	border-radius: 20px;
+}
+
+.activite_carte_image {
+	object-fit: cover;
+	width: 100%;
+	height: 360px;
+	box-shadow: 2px 0px 2px grey;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.activite_carte_titre {
+	padding: 10px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+/*Fin de la 3ème section*/
+
+
+
+/*Début footer*/
+
+#footer {
+	background-color: #F2F2F2;
+}
+
+#bloc_footer {
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 30px 0px 30px 63px;
+}
+
+.bloc_footer_titre {
+	padding: 10px 0px 10px 0px;
+}
+
+.bloc_footer_texte {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+/*Fin du footer*/
+
+
+
+
+
+
+/* les Mediaquery */
+
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+
+	h4 {
+		font-size: 18px;
+	}
+
+	body {
+		margin: 40px;
+	}
+
+	.bloc_header_liens {
+		column-gap: 60px;
+	}
+
+	/* FLitres*/
+	#bloc_filtre {
+		width: 95%;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+
+	.elementsfiltres {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	/*Section 2*/
+	#section2 {
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+
+	/*main*/
+
+	#bloc-herbergement {
+		width: 100%;
+	}
+
+	.rang_hebergement_cartes {
+		display: flex;
+		flex-wrap: nowrap;
+		gap: 40px;
+	}
+
+	.hebergement_titre {
+		padding: 0px;
+	}
+
+	.hebergement_carte {
+		width: 90%;
+	}
+
+	.filtre_elements {
+		padding: 0.7rem 1rem;
+	}
+
+	#conteneur-hebergement_cartes {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.bloc_afficherplus {
+		padding: 0px;
+	}
+
+	/*Aside*/
+
+	#aside {
+		width: 100%;
+		display: flex;
+	}
+
+	#bloc_lespluspopulaires {
+		padding: 20px 25px 30px 25px;
+	}
+
+	#colonne_lespluspopulaires_cartes {
+		display: flex;
+		flex-direction: row;
+		gap: 8px;
+	}
+
+	#bloc_titre_lespluspopulaires {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 0px 20px 0px;
+		;
+	}
+
+	.lespluspopulaires_carte_titre {
+		width: 70%;
+	}
+
+	.lespluspopulaires_carte_image {
+		width: 85px;
+		height: 115px;
+	}
+
+	.lespluspopulaires_carte {
+		width: 33%;
+	}
+
+	/*section 3*/
+	#bloc_activites {
+		width: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		gap: 20px;
+	}
+
+	.bloc_activite_carte {
+		width: 182px;
+	}
+
+	.activite_carte_image {
+		height: 250px;
+	}
+
+
+	/*footer*/
+
+	#footer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		padding-left: 80px;
+	}
+
+	#bloc_footer {
+		padding: 30px 0px 30px 0px;
+	}
+}
+
+
+/*Mediaquery téléphone*/
+@media screen and (max-width: 767px) {
+
+	body {
+		margin: 20px 0px 0px 0px;
+	}
+
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bloc_header_logo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.bloc_header_liens {
+		display: flex;
+		justify-content: space-around;
+		padding-bottom: 5px;
+	}
+
+	.bloc_header_liens div {
+		display: flex;
+		text-align: center;
+		width: 100%;
+	}
+
+	.bloc_header_liens div a {
+		width: 50%;
+		padding-bottom: 5px;
+		border-bottom: 2px solid #F2F2F2;
+	}
+
+	.bloc_header_liens div a:hover {
+
+		border-bottom: 2px solid #0065fc;
+		border-top: none;
+	}
+
+	.lienhebergement {
+		margin: 0px;
+	}
+
+	/* a.lienheader:hover
+{
+	border-top: none;
+	border-bottom: 3px solid #0065fc;
+	border-width: 50%;
+	text-decoration: none;
+} */
+
+	#section1 {
+		margin: 15px;
+	}
+
+	h1 {
+		font-size: 23px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	.texte_hebergement {
+		font-size: 16px;
+	}
+
+	#formulaire {
+		width: 95%;
+	}
+
+	#formulaire_bouton_1 {
+		display: none;
+	}
+
+	#formulaire_bouton_2 {
+		display: flex;
+		width: 17%;
+	}
+
+	.filtre_elements {
+		display: flex;
+		justify-content: flex-start;
+		font-size: 11px;
+		width: 194px;
+		padding: 1rem 1rem;
+		gap: 10px;
+	}
+
+	#bloc_filtre {
+		width: 100%;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.bloc_filtre_element {
+		display: none;
+	}
+
+	.bloc_filtre_element {
+		display: flex;
+		gap: 10px;
+	}
+
+	.elementsfiltres {
+		display: flex;
+		gap: 10px;
+	}
+
+	.familial,
+	.animaux {
+		margin-left: 0px;
+	}
+
+	#bloc_information {
+		align-items: center;
+	}
+
+	form {
+		display: flex;
+		border-radius: 15px;
+	}
+
+	/*Section 2*/
+
+	#section2 {
+		flex-direction: column-reverse;
+		margin-bottom: 50px;
+		gap: 10px;
+	}
+
+	.comportementcartes {
+		text-decoration: none;
+		width: 100%;
+	}
+
+	#bloc-herbergement {
+		width: 100%;
+		background-color: white;
+	}
+
+	.hebergement_titre {
+		padding-left: 20px;
+	}
+
+	.rang_hebergement_cartes {
+		gap: 10px;
+	}
+
+	#conteneur-hebergement_cartes {
+		gap: 10px;
+	}
+
+	.hebergement_carte_titre_texte {
+		padding: 5px 0px 5px 10px;
+	}
+
+	#bloc_titre_lespluspopulaires {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 0px 20px 0px;
+	}
+
+	#bloc_lespluspopulaires {
+		padding: 10px;
+	}
+
+	#aside {
+		width: 100%;
+	}
+
+	.lespluspopulaires_carte {
+		width: 100%;
+	}
+
+	.lespluspopulaires_carte_titre {
+		width: 90%;
+	}
+
+	.bloc_afficherplus {
+		display: none;
+	}
+
+	.hebergement_carte_image {
+		height: 130px;
+	}
+
+	.hebergement_carte {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 90%;
+	}
+
+	#aside {
+		border-radius: 0px;
+	}
+
+	.bloc_carte_titretexteicone {
+		width: 90%;
+	}
+
+	/*Section 3*/
+
+	#section3 {
+		margin-bottom: 20px;
+	}
+
+	.bloc_activites_titre {
+		width: 50%;
+		padding-left: 20px;
+	}
+
+	#bloc_activites {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.activite_carte_titre {
+		padding: 15px;
+	}
+
+	.bloc_activite_carte {
+		width: 90%;
+	}
+
+	.activite_carte_image {
+		height: 130px;
+	}
+
+	/*footer*/
+
+	#footer {
+		justify-content: flex-start;
+	}
+
+	#bloc_footer {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		margin-left: 10px;
+		padding: 30px 0px 30px 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
